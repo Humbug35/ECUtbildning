@@ -4,8 +4,15 @@ let pt = React.PropTypes;
 
 // Complete the UserForm declaration so that it works as expected!
 class UserForm extends React.Component {
+  let john = this.props.defaultname;
   render() {
-    return <p>Not yet implemented! Open up the file <code>yourcode1.js</code> and try to figure it out!</p>;
+    return (
+        <div>
+          <label>Enter name: </label>
+          <input type="text" name="name" defaultValue={john}/>
+
+        </div>
+    )
   }
   static get propTypes() {
     return {
