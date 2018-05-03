@@ -1,0 +1,51 @@
+#this-is-a-div {
+    font-size: 25px;
+}
+
+.these-are-paragraphs {
+    font-size: 30px;
+}
+
+a[href*="emmet"] {
+    color: red;
+}
+
+a[href*="golang"] {
+    color: deepskyblue;
+}
+
+a[href*="github"], a[href$="com"] {
+    color: darkslategrey;
+}
+
+a[href*="lOcAl" i] {
+    color: chartreuse;
+}
+
+h1 {
+    background-color: grey;
+}
+
+body p {
+    background-color: red;
+}
+
+div > p {
+    background-color: green;
+}
+
+div ~ p {
+    background-color: yellow;
+}
+
+div + p {
+    background-color: pink;
+}
+
+ul {
+    list-style-type: lower-latin;
+}
+
+a[href] {
+    text-decoration: none;
+}

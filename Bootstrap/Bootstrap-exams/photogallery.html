@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link href="css.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.min.js" rel="script"></script>
+    <script src="js/bootstrap.js" rel="script"></script>
+    <title>Photo Gallery</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid" id="backgroundnavbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-container" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><div class="navbar-brand">Xperi<span>VIVA</span></div></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-container">
+            <ul class="nav navbar-nav">
+                <li><a class="dropdown" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html">All Events</a></li>
+                        <div class="divider"></div>
+                        <li><a href="handgliding.html">Handgliding</a></li>
+                        <li><a href="sailing.html">Sailing in Croatia</a></li>
+                        <li><a href="spa.html">Spa Weekend</a></li>
+                        <li><a href="driving.html">Drive Sports Car</a></li>
+                        <li><a href="parachute.html">Parachute From Plane</a></li>
+                        <li><a href="concert.html">Iron Maiden Concert</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="active"><a href="photogallery.html">Photos</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-shopping-cart"></span><span style="margin-left: 3px;">(5)</span></button>
+    </div>
+</nav>
+<div id="sökrutadiv">
+    <input type="text" placeholder="Search...">
+</div>
+<article class="container-fluid">
+    <ol class="breadcrumb col-md-8 col-md-offset-2">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li>Photo Gallery</li>
+    </ol>
+</article>
+<div class="container">
+    <header class="text-center">
+        <h2 class="h2insimonspages">Here we have all photos posted from our customers on our social medias</h2>
+    </header>
+    <div class="container" id="galleryrowscontainer">
+        <div class="row galleryrows">
+            <h4 class="text-center">Pictures from <a href="#">our Instagram</a></h4>
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic1"><img src="images/gallerypic1.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic1">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic1.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @svenandersson</p></a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic2"><img src="images/gallerypic2.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic2">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic2.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @svenandersson</p></a>
+            </div>
+
+            <br class="hidden-lg">
+            <div class="hidden-lg clearfix"></div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic3"><img src="images/gallerypic3.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic3">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic3.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @olle_andersson</p></a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic4"><img src="images/gallerypic4.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic4">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic4.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @stensvensson</p></a>
+            </div>
+        </div>
+
+        <div class="row galleryrows">
+            <h4 class="text-center">Pictures from <a href="#">our Facebook</a></h4>
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic5"><img src="images/gallerypic5.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic5">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic5.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by Sten Svensson</p></a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic6"><img src="images/gallerypic6.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic6">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic6.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by Olle Andersson</p></a>
+            </div>
+
+            <div class="visible-xs clearfix"></div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic7"><img src="images/gallerypic7.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic7">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic7.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by Stina Nilsson</p></a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic8"><img src="images/gallerypic8.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic8">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic8.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by Harley Nilsson</p></a>
+            </div>
+        </div>
+
+        <div class="row galleryrows">
+            <h4 class="text-center">Pictures from <a href="#">our Twitter</a></h4>
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic9"><img src="images/gallerypic9.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic9">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic9.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @Jakobnilsson</p></a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic10"><img src="images/gallerypic10.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic10">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic10.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @Jakobnilsson</p></a>
+            </div>
+
+            <div class="visible-xs clearfix"></div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic11"><img src="images/gallerypic11.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic11">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic11.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @olle_andersson</p></a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3">
+                <a data-toggle="modal" href="#pic12"><img src="images/gallerypic12.jpg" class="img-responsive img-thumbnail"></a>
+                <div class="modal fade" id="pic12">
+                    <div class="modal-dialog modal-content">
+                        <img src="images/gallerypic12.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <a href="#"><p class="text-center">Posted by @olle_andersson</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="bg-warning">
+    <section class="container-fluid">
+        <div class="row">
+            <h2 class="brand-name-footer col-md-4">Xperi<span>VIVA</span></h2>
+            <article class="dropdown col-md-2 col-sm-5 left" >
+                <button type="button" data-toggle="collapse" data-target="#product-footer" class="btn btn-primary" id="btn-footer">
+                    PRODUCTS <span class="glyphicon glyphicon-collapse-down"></span>
+                </button>
+                <ul class="collapse" id="product-footer" >
+                    <li><a href="products.html">ALL EVENTS</a></li>
+                    <li><a href="driving.html">Drive Sports Car</a></li>
+                    <li><a href="spa.html">Spa Weekend</a></li>
+                    <li><a href="sailing.html">Sailing in Croatia</a></li>
+                    <li><a href="concert.html">Iron Maiden Concert</a></li>
+                    <li><a href="parachute.html">Parachute From Plane</a></li>
+                    <li><a href="handgliding.html">Handgliding</a></li>
+                </ul>
+            </article>
+            <nav class="nav col-md-6 col-sm-7">
+                <a class="nav-link" href="blog.html">BLOG</a>
+                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+                <a class="nav-link" href="photogallery.html">PHOTOGALLERY</a>
+            </nav>
+
+        </div>
+        <div class="row">
+            <form class=" form-inline form-horizontal col-md-4 col-md-offset-4">
+                <label>Newsletter</label>
+                <div class="input-group ">
+                    <input type="email" class="form-control" placeholder="Email Address" required>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-info">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+            <section class="social-media col-sm-12 col-md-4">
+                <span>Follow us:</span>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+            </section>
+            <!-- <p class="small text-right col-md-3 col-md-offset-2">Copyright 2017</p> -->
+        </div>
+    </section>
+</footer>
+</body>
+</html>

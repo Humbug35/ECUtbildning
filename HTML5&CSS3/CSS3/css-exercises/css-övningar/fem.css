@@ -1,0 +1,31 @@
+header{
+    background-color: lightblue;
+    color: black;
+    height: 50px;
+    width: 1100px;
+}
+nav{
+    background-color: red;
+    color: black;
+    height: 50px;
+    width: 1100px;
+}
+main{
+    background-color: yellow;
+    height: 600px;
+    width: 750px;
+    float: left;
+    color: hsl(0, 90%, 45%)
+}
+aside {
+    background-color: green;
+    height: 600px;
+    width: 350px;
+    float: left;
+}
+footer{
+    clear: both;
+    background-color: magenta;
+    height: 40px;
+    width: 1100px;
+}

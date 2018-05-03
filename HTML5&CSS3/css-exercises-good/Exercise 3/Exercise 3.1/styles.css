@@ -1,0 +1,12 @@
+p:first-child::first-line {
+    color: blanchedalmond;
+}
+
+article:before {
+    background-image: url('images/bald-eagle.jpg');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+}

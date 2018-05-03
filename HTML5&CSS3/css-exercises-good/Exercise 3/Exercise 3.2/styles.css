@@ -1,0 +1,25 @@
+header > h1 {
+    font-family: monospace;
+    margin: 25px 10px;
+}
+
+nav > ul {
+    padding: 2px;
+    margin: 10px;
+    display: inline-block;
+    background-color: grey;
+    visibility: visible;
+    /* display: none; */
+}
+
+nav > ul > li {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    background-color: dodgerblue;
+    text-align: center;
+    border: 2px solid white;
+    vertical-align: middle;
+    box-sizing: border-box;
+}

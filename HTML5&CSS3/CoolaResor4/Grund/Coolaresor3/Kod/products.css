@@ -1,0 +1,370 @@
+main{
+    width: 80%;
+    max-width: 1200px;
+    /*height: 1200px;*/
+    margin: 0 auto;
+    background-color: rgba(220, 247, 255, 0.35);
+}
+
+
+.big-pic {
+    position: relative;
+    margin: 0 auto;
+}
+
+.big-pic span{
+    /*width: 100px;
+    height: 35px;*/
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+.big-pic > span:hover {
+    background-color: #233265;
+}
+
+.big-pic div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /*height: 600px;*/
+    margin: 0 auto;
+}
+.big-pic img {
+    width: 100%;
+    height: 100%;
+}
+#texten > a{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    text-shadow: 1px 1px;
+}
+.rese-typ {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bla {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.bla > span {
+    background-color: lightcoral;
+    padding: 10px;
+}
+.rese-typ > h3 {
+    align-self: center;
+}
+.sista-minuten {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sista-minuten > h3 {
+    justify-content: center;
+}
+
+/*.sista-minuten > img {
+    width: 400px;
+    height: 533px;
+}*/
+
+.sista-minuten > div {
+    width: 45%;
+}
+
+.sista-minuten > div > img {
+    width: 100%;
+    height: auto;
+}
+
+/*.sista-minuten > article {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}*/
+.sista-minuten > article {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sista-minuten > article > h3 {
+    align-self: center;
+    padding-bottom: 10px;
+}
+.sista-minuten > article > img {
+    /*width: 200px;*/
+    /*height: 300px;*/
+    width: 100%;
+    height: auto;
+    /*max-width: 200px;
+    max-height: 300px;*/
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+.sista-minuten > article > span {
+    /*width: 100px;
+    height: 30px;*/
+    align-self: flex-end;
+
+}
+
+.pris {
+    /*width: 200px;
+    height: 40px;*/
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+/*.main-destinationer {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid grey;
+}*/
+
+/*.resor-container {
+    display: flex;
+    justify-content: space-between;
+}*/
+.medium {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.medium-dest {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 45%
+}
+
+.medium-dest > img {
+    width: 100%;
+    /*height: 300px;*/
+    height: auto;
+    padding-bottom: 10px;
+}
+.medium-dest article {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.medium-dest > article > h3 {
+    align-self: center;
+    padding: 4px;
+}
+.medium-dest > span {
+    /*width: 90px;
+    height: 30px;*/
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+.small-medium {
+    /*width: 400px;*/
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.small-medium > div {
+    position: relative;
+}
+.small-medium > div > img {
+    /*width: 400px;
+    height: 300px;*/
+    width: 100%;
+    height: auto;
+    /*min-width: 400px;*/
+    /*max-width: 500px;*/
+}
+.small-medium > div > span {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.small-medium > article {
+    display: flex;
+    flex-direction: column;
+    /*width: 200px;
+    height: 300px;*/
+    padding: 10px;
+}
+.small-medium > article > span {
+    /*width: 100px;*/
+    /*height: 30px;*/
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+
+.destinationer {
+    /*width: 300px;*/
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid crimson;*/
+    padding: 10px;
+    /*background-color: rgba(229, 229, 229, 0.31);*/
+    /*text-align: center;*/
+}
+
+.destinationer > img {
+    width: 100%;
+    /*height: 200px;*/
+    height: auto;
+    padding-bottom: 10px;
+}
+.destinationer > .cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.destinationer > .cart > span{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 0;
+    align-self: flex-end;
+}
+.destinationer > span {
+    /*width: 90px;
+    height: 30px;*/
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 0;
+    align-self: flex-end;
+
+}
+
+.destinationer > span:hover {
+    background-color: cornflowerblue;
+}
+
+.seasons {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+
+.seasons div {
+    background-color: grey;
+    padding: 10px;
+}
+
+.seasons div:hover {
+    background-color: darkgrey;
+    font-size: 105%;
+}
+
+.england {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.england > div {
+    position: relative;
+}
+.england > div > img{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.england > div > span {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.england > article {
+    width: 60%;
+}
+footer{
+    position: relative;
+
+}
+
+@media (max-width: 786px) {
+    .sista-minuten {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sista-minuten div, .sista-minuten article {
+        width: 100%;
+        align-self: center;
+    }
+    .small {
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-medium {
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .destinationer {
+       width: 100%;
+    }
+
+    .medium, .medium-dest {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .england > article {
+        width: 100%;
+
+    }
+
+    .seasons {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+}

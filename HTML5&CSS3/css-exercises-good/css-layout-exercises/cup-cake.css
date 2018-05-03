@@ -1,0 +1,18 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section > article {
+    flex: 1;
+/*    width: 30%;*/
+}
+
+section > article:first-of-type {
+    background-color: skyblue;
+}
+
+section > article:last-of-type {
+    background-color: lightpink;
+    flex: 2;
+}

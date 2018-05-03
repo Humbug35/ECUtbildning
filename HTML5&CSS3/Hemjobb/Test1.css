@@ -1,0 +1,13 @@
+section {
+    height: 100px;
+    background-color: #8799db;
+    position: relative;
+}
+article {
+    background-color: #efef8f;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

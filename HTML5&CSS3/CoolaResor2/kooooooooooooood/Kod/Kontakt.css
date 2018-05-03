@@ -1,0 +1,75 @@
+main{
+    width: 80%;
+}
+fieldset{
+    width: 45%;
+    border-style: solid;
+    background-color: rgba(53, 130, 243, 0.62);
+    margin-left: 55%;
+    margin-top: 10%;
+
+}
+form{
+    display: inline;
+}
+label{
+    padding-left: 5%;
+}
+input{
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 5px;
+    width: 57%;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+input:focus{
+    background-color: orange;
+}
+input:last-of-type{
+    width: 18%;
+    background-color: cornflowerblue;
+    border-radius: 15%;
+}
+input:last-of-type:hover{
+    background-color: orange;
+    font-size: 105%;
+}
+textarea{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+
+@media (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    fieldset{
+        width: 100%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        margin-top: 5%;
+    }
+    input{
+        margin-top: 2%;
+    }
+    textarea{
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    input:last-of-type{
+        margin-left: 70%;
+        margin-top: 5%;
+    }
+}

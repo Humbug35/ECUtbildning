@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Kundkorg.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coola Resor</title>
+</head>
+<body>
+<header>
+    <div class="img-container">
+        <span>Kontakt</span>
+        <img id="Telefon" src="Images/Telefon.svg">
+        <span>Kundkorg</span>
+        <img src="Images/Kundkorg2.svg">
+    </div>
+
+</header>
+<nav>
+    <img id="Logga" src="Images/plane.svg">
+    <ul>
+        <li><a href="#">Resor
+            <ul>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
+        </a></li>
+        <li><a href="#">Resor
+            <ul>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
+        </a>
+        </li>
+        <li><a href="#">Resor
+            <ul>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
+        </a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <section id="övre">
+                 <article>
+                    <article id="bild">
+                        <img src="Images/resort-906102_960_720.jpg" title="Hotel" alt="Hotel">
+                    </article>
+                    <article id="namn">
+                        <ul>
+                            <li><p>Side, Turkiet</p></li>
+                            <li><span>Alegria Beach Resort <em>++++</em></span></li>
+                        </ul>
+                    </article>
+                    <article id="pris">
+                        <ul>
+                            <li><strong>Totalpris</strong><p>11278:-</p></li>
+                        </ul>
+                    </article>
+                 </article>
+    </section>
+
+    <section id="undre">
+    <article id="info">
+        <h3>Viktig information!</h3>
+        <ul>
+            <li><strong>Paketresa med reguljärflyg</strong>
+                <p>Det här är en paketresa med reguljärflyg, vilket betyder att paketreselagens trygghet gäller precis som för våra charterresor.
+                    Andra regler skiljer sig dock lite, till exempel att du inte har öppet köp efter att en betalning gjorts.</p></li>
+            <li><strong>Viktigt - rättstavade namn</strong>
+                <p>Tänk på att namnen på bokningen måste skrivas exakt som i passen, rättstavade och inklusive eventuella mellannamn.</p></li>
+            <li><strong>Bagage ingår: Ja.</strong>
+                <p>Normalt 1 incheckad väska på cirka 15-23 kg plus 1 handbagage på cirka 5-8 kg. För exakta uppgifter,
+                    se ditt flygbolags hemsida eller kontakta oss efter att du bokat resan.</p></li>
+            <li>Vår service: Coola Resors onlinecenter</li>
+        </ul>
+    </article>
+    <article id="formbox">
+
+        <form>
+
+            <fieldset>
+                <legend>Kontaktuppgifter</legend>
+            <label for="Förnamn">Förnamn:</label>
+            <input id="Förnamn" type="text" name="Förnamn" pattern="[A-Ö a-ö]{2,}" title="Endast bokstäver" required>
+            <label for="Efternamn">Efternamn:</label>
+            <input id="Efternamn" type="text" name="Efternamn" pattern="[A-Ö a-ö]{2,}" title="Endast bokstäver" required>
+            <label for="Gatuadress">Adress:</label>
+            <input id="Gatuadress" type="text" name="Gatuadress" title="Vänligen fyll i fältet" required>
+            <label for="Stad">Stad:</label>
+            <input id="Stad" type="text" name="Stad" pattern="[A-Ö a-ö]{2,}" title="Endast bokstäver"required>
+            <label for="Postnummer">Postnummer:</label>
+            <input id="Postnummer" type="text" name="Postnummer" pattern="[0-9]+" minlength="5" title="Endast siffror" required>
+            <label for="Land">Land:</label>
+            <input id="Land" type="text" name="Land" pattern="[A-Ö a-ö]{2,}" title="Endast bokstäver" required>
+            <label for="Mailadress">Mailadress:</label>
+            <input id="Mailadress" type="email" name="Mailadress" placeholder="exempel@hotmail.com" required>
+            <label for="Telefonnummer">Mobilnummer:</label>
+            <input id="Telefonnummer" type="text" name="Telefonnummer" pattern="[0-9]+" placeholder="10 siffror" minlength="10" title="Endast siffror" required>
+            <label>Leveranssätt: </label>
+                <div class="radiobuttons">
+                    <label>Standard: </label>
+                    <input type="radio" name="alt" class="radio">
+                </div>
+                <div class="radiobuttons">
+                    <label>Express: </label>
+                    <input type="radio" name="alt" class="radio">
+                </div>
+                <div class="radiobuttons">
+                    <label>Hemleverans: </label>
+                    <input type="radio" name="alt" class="radio">
+                </div>
+            <input type="submit" value="Till betalning" id="payment">
+            </fieldset>
+        </form>
+
+        </article>
+    </section>
+</main>
+<footer>
+    <ul>
+        <li><a href="#">Om oss</a></li>
+        <li><a href="#">Att resa med oss</a></li>
+        <li><a href="#">Kundservice</a></li>
+    </ul>
+</footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Kontakt.css">
+    <title>Coola Resor</title>
+</head>
+<body>
+
+<nav>
+    <a href="Home.html"><img id="Logga" src="Images/plane.svg"></a>
+    <ul>
+        <li><a href="Products.html">Aktuellt just nu
+            <ul>
+                <li><a href="Products.html">Egypten</a></li>
+                <li><a href="Products.html">Italien</a></li>
+                <li><a href="Products.html">Cape cod</a></li>
+                <li><a href="Products.html">Japan</a></li>
+            </ul>
+        </a></li>
+        <li><a href="Products.html">Paketresor
+            <ul>
+                <li><a href="Products.html">Ensam</a></li>
+                <li><a href="Products.html">Grupp</a></li>
+            </ul>
+        </a>
+        </li>
+        <li><a href="blogg.html">Blogg
+
+        </a>
+        </li>
+    </ul>
+    <a href="Kontakt.html">
+
+        <img id="Telefon" src="Images/Telefon.svg"> </a>
+    <a href="Kundkorg.html">
+
+        <img src="Images/Kundkorg2.svg"> </a>
+</nav>
+
+<main>
+
+
+        <section>
+            <fieldset>
+            <form>
+                <label for="Förnamn">Förnamn:</label>
+                <input id="Förnamn" type="text" name="Förnamn" pattern="[A-Ö a-ö]{2,}" title="Endast bokstäver" required>
+                <label for="Efternamn">Efternamn:</label>
+                <input id="Efternamn" type="text" name="Efternamn" pattern="[A-Ö a-ö]{2,}" title="Endast bokstäver" required>
+                <label for="Mailadress">Mailadress:</label>
+                <input id="Mailadress" type="email" name="Mailadress" placeholder="exempel@hotmail.com" required>
+                <textarea type="textarea" rows="10" cols="50" maxlength="500" required></textarea>
+                <input type="submit" value="Skicka">
+            </form>
+            </fieldset>
+        </section>
+</main>
+<footer>
+    <p>
+        <Strong>Coola Resor</Strong><br>
+        Resevägen 666 <br>
+        06 606 Resestan
+
+    </p>
+</footer>
+</body>
+</html>

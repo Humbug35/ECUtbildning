@@ -1,0 +1,54 @@
+body {
+    height: 80vh;
+    border: 1px solid #000;
+}
+
+
+header {
+    border: 1px solid transparent;
+    background-color: peachpuff;
+    height: 30vh;
+}
+
+nav {
+    border: 1px solid transparent;
+    background-color: palegreen;
+    height: 10vh;
+}
+
+main {
+    background-color: purple;
+    height:30vh;
+    width: 70vw;
+}
+
+aside {
+    background-color: lightsteelblue;
+    height: 30vh;
+    width: 30vw;
+}
+
+footer {
+    background-color: orange;
+    height: 10vh;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 415px) {
+    body {
+        background-color: black;
+    }
+    section {
+        display: block;
+    }
+    aside {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+}

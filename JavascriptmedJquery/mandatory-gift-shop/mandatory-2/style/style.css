@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    background-color: red;
+    height: 20vh;
+}
+h1{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#shoppingCarten{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: #5041ff;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.productsArticle{
+    margin: 0 0 10px 10px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lawngreen;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+img{
+    width: 65%;
+    border-radius: 50%;
+    height: 25vh;
+}
+button{
+    background-color: #5041ff;
+    color: white;
+    width: 25%;
+    border-radius: 10px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+/* Checkoutpage*/
+#backToProducts{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 5px 10px 0;
+}
+.fa-arrow-alt-circle-left{
+    font-size: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#yourShoppingCart{
+    display: flex;
+    justify-content: space-around;
+}
+.checkoutProductsArticle{
+    width: 32%;
+    text-align: center;
+}
+#myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+input:focus , textarea:focus{
+    border-color: darkblue;
+    background-color: orange;
+    outline: none;
+}
+label{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+span{
+    display: flex;
+}
+#Knapp{
+    width: 25%;
+    padding: 10px;
+    margin: 5px 0 0 75%;
+    background-color: #5041ff;
+    color: white;
+    border-radius: 10px;
+}
+input[type=button]:hover , #Knapp:hover{
+    background-color: orange;
+    font-weight: 800;
+}

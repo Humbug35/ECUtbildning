@@ -1,0 +1,175 @@
+body > header {
+    background-color: beige;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:10px;
+
+}
+nav {
+
+    background-color: mediumpurple;
+}
+nav > ul {
+    text-align: center;
+
+}
+
+section > article > figure > img {
+    width: 25%;
+}
+
+section > article > figure > img {
+    float: left;
+    display: inline-block;
+}
+section > article > figure > figcaption > p {
+    clear: right;
+    width: 500px;
+}
+
+/*
+
+section > article > figure > img {
+    display: inline-block;
+    float: left;
+
+    width: 75px;
+}
+
+section > article > figure > figcaption > p {
+    clear: right;
+    width: 90%;
+}
+
+
+*/
+
+
+
+
+
+aside > h2 {
+    text-align: center;
+}
+
+aside > figure > img {
+    width: 100px;
+
+}
+
+nav > ul > li:first-of-type {
+    border-left: solid 1px #000;
+}
+
+nav > ul > li {
+    border-right: 1px solid #000;
+    margin-left: -40px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding:10px 20px;
+}
+
+footer {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+footer > article {
+    display: inline-block;
+    padding: 20px;
+    font-size: 70%;
+}
+main {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+    
+    body > header {
+        background-color: beige;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        margin-bottom: -16px;
+    }
+
+    nav > ul > li {
+
+        display: flex;
+        list-style-type: none;
+        background-color: mediumpurple;
+        border: 1px solid #000;
+        margin-left: -40px;
+        flex-direction: column;
+        height: 30px;
+
+        justify-content: center;
+        text-align: center;
+
+    }
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    aside > figure > img {
+        width:35%;
+        height: 35%;
+    }
+    /*
+    section > article > figure > img {
+        width: 25%;
+    }
+    */
+    section > h2 {
+        text-align: center;
+    }
+    section > article > h3 {
+        text-align: center;
+    }
+    /*
+    section > article > figure > img {
+        float: left;
+    }
+    aside > h2 {
+        text-align: center;
+    }
+    aside > figure > img {
+
+
+    }
+    */
+    aside > figure {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        background-color: lightpink;
+        display: flex;
+        justify-content: center;
+    }
+    footer > article {
+        display: inline-block;
+        padding: 20px;
+        font-size: 70%;
+    }
+    nav {
+        background-color: transparent;
+    }
+    section > article > figure > figcaption > p {
+        
+        width: 100%;
+    }
+}

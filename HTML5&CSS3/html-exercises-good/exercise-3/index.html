@@ -1,0 +1,119 @@
+<!---------
+**In the file you just created, add a doctype, html, head and body elements.** ---------->
+
+<!-------
+
+
+
+
+
+
+
+
+
+(I cheated a little bit by adding line breaks to make the output slightly prettier. Try creating the form with no line breaks and then add them.)
+
+---------->
+
+<!DOCTYPE html>
+    <head>
+        <head>
+        </head>
+            <body>
+                <!-- Add an ordered list of your top three favourite foods to the page. It should look something like this: -->
+                <ol>
+                    <li>Pasta</li>
+                    <!-- Next, add ordered sub items to the list: -->
+                        <ol>
+                            <li>Tomato</li>
+                        </ol>
+                    <li>Broccoli</li>
+                        <ol>
+                            <li>Vegetable</li>
+                        </ol>
+                    <li>Fish</li>
+                        <ol>
+                            <li>Animal</li>
+                        </ol>
+                </ol>
+                <!-- Add an unordered list of three musical genres you listen to: -->
+                <ul>
+                    <li>Hip Hop</li>
+                    <!-- Next, add unordered list items to your list: -->
+                    <ul>
+                        <li>Musik</li>
+                    </ul>
+                    <li>Folk</li>
+                    <ul>
+                        <li>Music</li>
+                    </ul>
+                    <li>Dance</li>
+                    <ul>
+                        <li>Musika</li>
+                    </ul>
+                </ul>
+                <!-- Add a description list with three movies you like as the items and add a short description of the movie: -->
+                <dl>
+                    <dt>Starship Troopers</dt>
+                    <dd>Sci-fi killing</dd>
+                    <dt>Titanic</dt>
+                    <dd>Boating</dd>
+                    <dt>Godfather</dt>
+                    <dd>Crimey</dd>
+                </dl>
+                <!-- Add a table containing three products. The product name, price, and stock quantity should be listed: -->
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <th>Price:</th>
+                        <th>Quantity:</th>
+                    </tr>
+                    <tr>
+                        <td>Agurk</td>
+                        <td>$100</td>
+                        <td>28532</td>
+                    </tr>
+                </table>
+                <!--
+                Add a form where the user can enter the following:
+                First name
+                Last name
+                Address
+                Zip code
+                City
+                Phone number
+                Email address
+                Be sure to add labels for your inputs. It should look something like this: -->
+                <h4>This is a form</h4>
+                <!--
+
+                How can you display the HTML for an element in your browser, like <div></div>? It should look like this -->
+                <form>
+                    <!-- Make the First name, last name and phone number inputs required. Meaning the user must fill these in. -->
+                    <label>First Name</label>
+                    <input type="text" name="firstName" required="true"><br/>
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" required="true"><br/>
+                    <!-- <!-- Investigate how to limit the number of characters for the Address input to 50 characters. -->
+                    <label>Address</label>
+                    <input type="text" name="address" maxlength="50"><br/>
+                    <label>Zip Code</label>
+                    <input type="number" name="zipCode"><br/>
+                    <label>City</label>
+                    <input type="text" name="city"><br/>
+                    <label>Phone Number</label>
+                    <input type="text" name="phoneNumber" required="true"><br/>
+                    <label>Email Address</label>
+                    <input type="email" name="emailAddress"><br/>
+                    <!-- When using radio buttons, how do we make sure the user can only choose one option? Add radio buttons to your
+                form where the user can choose between three different delivery options (example: Standard, Express and Home delivery). -->
+                    <h5>Radio choices</h5>
+                    <label>Delivery</label>
+                    <input type="radio" name="delivery">Standard
+                    <input type="radio" name="delivery">Express
+                    <input type="radio" name="delivery">Home Delivery
+                </form>
+                <!-- I want to typ <div></div> in the browser.-->
+                <p>&lt;div&gt; &lt;/div&gt;</p>
+            </body>
+    </html>

@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+}
+
+body > header {
+    background-color: indianred;
+    padding: 0em 0em 1em;
+}
+
+body > nav {
+    background-color: lawngreen;
+    padding: 0em 0em 1em;
+}
+
+body > main {
+    background-color: rebeccapurple;
+    /* display: inline-block; */
+   /* padding: 0em 12em 11em 0em; */
+    /* box-sizing: border-box; */
+    width: 65%;
+    height: 9em;
+    float: left;
+
+}
+
+body > aside {
+    background-color: skyblue;
+    /* display: inline-block; */
+    /* padding: 0em 7em 11em 0em; */
+    width: 35%;
+    height: 9em;
+    float: right;
+}
+
+body > footer {
+    background-color: orange;
+    float: left;
+    clear: both;
+    height: 1em;
+    width: 100%;
+
+}

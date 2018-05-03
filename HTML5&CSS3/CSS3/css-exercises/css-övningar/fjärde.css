@@ -1,0 +1,19 @@
+section{
+    font-size: 16px !important;
+    width: 50%;
+    position: relative;
+    background: #ba89b6;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em;
+    margin: 2em auto 3em;
+}
+article{
+    background-color: #f15b2a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1em 2em;
+    display: none;
+}

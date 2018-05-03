@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <h1>Welcome to my House Shop</h1>
+    <a href="products.html" id="backToProducts"><i class="far fa-arrow-alt-circle-left"></i>Back to products</a>
+</header>
+<main>
+    <section id="yourShoppingCart"></section>
+    <form id="myForm" action="" method="post" novalidate>
+            <span><label for="firstName">Firstname*</label>
+                <input id="firstName" type="text"></span>
+
+        <span><label for="lastName">Lastname*</label>
+                <input id="lastName" type="text"></span>
+
+        <span><label for="email">Email*</label>
+                <input id="email" type="email"></span>
+
+        <span><label for="phone">PhoneNumber</label>
+                <input id="phone" type="number"></span>
+
+        <span><label for="address">Street Address*</label>
+                <input id="address" type="text"></span>
+
+        <span><label for="zip">Zip Code*</label>
+                <input id="zip" type="number"></span>
+
+        <span><label for="city">City*</label>
+                <input id="city" type="text"></span>
+
+
+        <label for="textarea">Comment</label>
+        <textarea id="textarea" rows="7" cols="20"></textarea>
+
+        <button type="submit" id="Knapp">Submit</button>
+    </form>
+</main>
+<script type="text/javascript" src="../script/jquery-3.3.1.min.js"></script>
+<script src="../script/checkout.js"></script>
+</body>
+</html>

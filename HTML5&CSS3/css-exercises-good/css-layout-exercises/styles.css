@@ -1,0 +1,36 @@
+#first-section > article:before {
+    content: '#1. ';
+}
+#second-section > article:before {
+    content: '#2. ';
+}
+#third-section > article:before {
+    content: '#3. ';
+}
+#fourth-section > article:before {
+    content: '#4. ';
+}
+
+#fifth-section > article:before {
+    content: '#5. ';
+}
+
+#first-section > article {
+    position: fixed;
+}
+
+#second-section > article {
+    position: relative;
+}
+
+#third-section > article {
+    position: absolute;
+}
+
+#fourth-section > article {
+    position: static;
+}
+
+#fifth-section > article {
+    position: sticky;
+}

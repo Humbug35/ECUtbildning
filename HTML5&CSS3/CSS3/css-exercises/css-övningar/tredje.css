@@ -1,0 +1,9 @@
+div{
+    background-color: gold;
+    height: 150px;
+    width: 600px;
+    background-image: url("Nuncio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}

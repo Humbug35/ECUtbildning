@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+body > nav >ul {
+    background-color: dimgray;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+body > nav > ul > li {
+    background-color: deepskyblue;
+    display: inline-block;
+    /*    padding: 5px 20px;    */
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+body > nav > ul.top-navigation > li:hover {
+    background-color: skyblue;
+}
+
+body > nav > ul.top-navigation > li > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+}
+
+body > nav > ul.top-navigation > li:active {
+    background-color: blue;
+}
+
+aside {
+    display: inline-block;
+    width: 10%;
+    float: left;
+}
+
+article {
+    background-color: red;
+    display: inline-block;
+    width: 60%;
+    float: right;
+}

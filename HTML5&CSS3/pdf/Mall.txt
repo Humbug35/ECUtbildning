@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h1>Article #1</h1>
+                </header>
+                <section>
+                    Lorem ipsum yadda yadda
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h1>Article #2</h1>
+                </header>
+                <section>
+                    Lorem ipsum yadda yadda
+                </section>
+            </article>
+        </section>
+        <aside>
+            <section>
+                <h1>Aside</h1>
+            </section>
+        </aside>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>

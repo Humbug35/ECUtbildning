@@ -1,0 +1,18 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+}
+section > article:first-of-type{
+background-color: cornflowerblue;
+    width: 30%;
+
+}
+section > article:last-of-type{
+    background-color: red;
+    width: 30%;
+
+}
+

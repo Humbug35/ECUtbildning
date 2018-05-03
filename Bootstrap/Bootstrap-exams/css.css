@@ -1,0 +1,871 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+#backgroundnavbar {
+    background-color: rgb(239,243,116);
+    padding-bottom: 10px;
+}
+
+.navbar-brand, .navbar-nav > li > a
+{
+    text-shadow: none;
+}
+
+#backgroundnavbar > div.navbar-header > a > div > span
+{
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 100;
+}
+
+.navbar-brand
+{
+    padding-top: 35px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+
+
+/*optional style*/
+.brand-name-footer
+{
+    font-family: "Archivo Black", sans-serif;
+}
+
+.brand-name-footer > span
+{
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 100;
+}
+
+#backgroundnavbar {
+    background-color: rgb(51, 51, 51);
+    border-bottom: 7pt solid rgb(239,243,116) ;
+    padding-bottom: 10px;
+}
+
+#backgroundnavbar > div.navbar-header > a > div
+{
+    color: rgb(239,243,116);
+}
+
+#navbar-collapse-container > ul > li > a
+{
+    color: rgb(239,243,116);
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.navbar-default .navbar-nav>.active>a
+{
+    border-bottom: 2pt solid rgb(239,243,116);
+    background: none transparent;
+}
+.navbar-default .navbar-nav>.active>a:hover
+{
+    background: none transparent;
+}
+
+#navbar-collapse-container > ul > li > a:active
+{
+    border-bottom: 2pt solid rgb(239,243,116);
+}
+#navbar-collapse-container > ul > li > a:focus
+{
+    background: none transparent;
+    border-bottom: 2pt solid rgb(239,243,116);
+}
+
+#navbar-collapse-container > ul > li > a:hover
+{
+    border-bottom: 2pt solid rgb(239,243,116);
+}
+
+footer.bg-warning
+{
+    background-color: rgb(51, 51, 51);
+    border-top: 7pt solid rgb(239,243,116) ;
+}
+
+body > footer > section > div:nth-child(1) > h2
+{
+    color: rgb(239,243,116);
+}
+
+#btn-footer
+{
+    color: rgb(239,243,116);
+}
+
+body > footer > section > div > .nav > a
+
+{
+    color: rgb(239,243,116);
+}
+.nav > a:hover
+{
+    border-bottom: 1pt solid rgb(239,243,116);
+    text-decoration: none;
+}
+#btn-footer:hover
+{
+    border-bottom: 1pt solid rgb(239,243,116);
+    text-decoration: none;
+}
+
+/* -----------------------------*/
+
+#sökrutadiv input:focus {
+    width: 250px;
+    outline: none;
+}
+
+#sökrutadiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#sökrutadiv input {
+    border-radius: 0 0 10px 10px;
+    border: 7px solid rgb(239,243,116);
+    height: 40px;
+    width: 125px;
+    font-size: 20px;
+    transition: width 0.5s ease-in-out;
+    background-image: url('images/sökglas.png');
+    background-size: 23px;
+    padding-left: 30px;
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+.btn-default {
+    background-color: white;
+    background-image: none;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 30pt;
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16pt;
+    color: black;
+}
+
+/* simons changes starts here*/
+
+.h2insimonspages {
+    margin: 40px;
+    color: rgb(239,243,116);
+    background-color: rgb(51,51,51);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#contactrow {
+    background-color: rgb(239,243,116);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+}
+#contactcol1, #contactcol2 {
+    padding: 10px;
+    height: 220px;
+}
+#contactcol1 p, #contactcol2 p {
+    margin: 0;
+}
+
+#contactcol1 h3, #contactcol2 h3 {
+    margin-top: 0;
+}
+
+#contactcol3 {
+    background-color: rgb(239,243,116);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutrows {
+    background-color: rgb(239,243,116);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#aboutrowscompany {
+    margin-bottom: 70px;
+}
+
+.galleryrows {
+    margin-bottom: 30px;
+    background-color: rgb(239,243,116);
+    border-color: rgb(239,243,116);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* --------simons changes ends here----------- */
+
+.jumbotron.jumbotron-fluid
+{
+    background: url("images/Super-Cars-Car-Automobile-Ferrari-Auto-Automotive-2934066.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.jumbotron .h1
+{
+    color: white;
+    font-weight: bold;
+    opacity: 0.85;
+}
+
+.jumbotron .lead
+{
+    color: white;
+    font-weight: bold;
+}
+
+
+.jumbotron p > a
+{
+    color: white;
+}
+
+.jumbotron p > a:hover
+{
+    border: 1pt solid white;
+    text-decoration: none;
+    padding: 10px;
+}
+/* panels on index page starts here*/
+.article-panel-index
+{
+    padding: 0;
+    margin: 0;
+}
+
+.a-panel-index
+{
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    height: 23em;
+}
+
+#p-index, #index-h, #p-footer1
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+#p1-index, #index-h1, #p1-footer
+{
+    background-color: #ab4d4e;
+    color: white;
+}
+
+#p2-index, #index-h2, #p-footer2
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+#p3-index, #index-h3, #p-footer3
+{
+    background-color: #ab4d4e;
+    color: white
+}
+
+#index-h1, #index-h3, #index-h2, #index-h
+{
+    font-size: 30pt;
+    padding: 25px 25px 0 25px;
+    font-weight: bold;
+}
+
+.blog-badge
+{
+    width: 70px;
+    height: auto;
+    padding: 8px 14px;
+    font-size: 15pt;
+    background-color: transparent;
+    border: 1pt solid white;
+}
+
+.index-p-body
+{
+    padding: 15px 30px;
+}
+
+#sailing-p
+{
+    font-size: 14pt;
+}
+
+#p-footer1 > a
+{
+    color: white;
+}
+
+#p-footer2  > a
+{
+    color: white;
+}
+
+#p-footer3 > a
+{
+    color: white;
+}
+
+#p1-footer > a
+{
+    color: white;
+}
+
+#p-footer1 > a:hover
+{
+    border: 1pt solid white;
+}
+
+#p-footer2  > a:hover
+{
+    border: 1pt solid white;
+}
+
+#p-footer3 > a:hover
+{
+    border: 1pt solid white;
+}
+
+#p1-footer > a:hover
+{
+    border: 1pt solid white;
+}
+
+#p1-footer
+{
+    margin-top: 22px;
+}
+
+#p-footer3
+{
+    margin-top: 35px;
+}
+
+#p-footer2
+{
+    margin-top: 35px;
+}
+
+#p-footer1
+{
+    margin-top: 51px;
+}
+
+.wrapp-h2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapp-h2 > h2
+{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 8em;
+    padding: 0;
+    line-height: 0.45em;
+}
+
+.wrapp-h2 > h2:nth-child(odd)
+{
+    color: rgba(239,243,116,0.9);
+}
+.article-sm
+{
+    padding: 0;
+}
+
+/*blog page*/
+
+.blog-page
+{
+    margin-bottom: 250px;
+}
+
+.blog-page > .row > article > figure
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+body > main > section > article:nth-child(2) > p:nth-child(2)
+{
+    margin-bottom: 30px;
+}
+
+aside
+{
+    margin-top: 20px;
+}
+
+.submit-form-comments
+{
+    margin-top: 100px;
+}
+
+#collapse-comments, #collapse-comments2
+{
+    margin-top: 100px;
+}
+
+.media
+{
+    margin-bottom: 70px;
+}
+
+.media-object
+{
+    height: 3cm;
+    width: auto;
+}
+
+#collapse-comments > article > div > div:nth-child(1) > div.media-body > button > small > span
+{
+    font-size: 8pt;
+}
+
+#comments-1, #comments-answer
+{
+    margin-top: 40px;
+    border-top: 1pt solid rgb(51, 51, 51);
+}
+
+.comments-share-like
+{
+    border-top: 1pt solid rgb(51, 51, 51);
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.comments-share-like > .glyphicon.glyphicon-thumbs-up
+{
+    margin-right: 15px;
+}
+
+#share-blogpost
+{
+    padding-top: 16px;
+}
+
+#share-blogpost, #share-blogpost2 > a
+{
+    padding-right: 16px;
+    color: rgb(51, 51 ,51);
+}
+
+#share-blogpost > a:hover
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.like-badge{
+    color: black;
+}
+
+#archive-title
+{
+    color: rgb(51, 51, 51);
+    border-bottom: 2pt solid rgb(239,243,116);
+}
+
+#archive-title-bottom
+{
+    margin-top: 40px;
+    color: rgb(51, 51, 51);
+    border-bottom: 2pt solid rgb(239,243,116);
+}
+.btn-default:focus, .btn-default:hover {
+    background-color: transparent;
+}
+
+.form-comment-btn:focus
+{
+    outline: none;
+}
+
+#blog-post-2
+{
+    margin-top: 50px;
+}
+
+#blog-post-2 > p:nth-child(3)
+{
+    margin-top: 30px;
+}
+
+/*footer*/
+footer
+{
+    padding: 23px;
+}
+article.dropdown
+{
+    padding: 0;
+}
+
+.nav > a
+{
+    margin-right: 25px;
+    padding-bottom: 5px;
+}
+/* just to see other optional style
+.nav > a:hover
+{
+    border-bottom: 1pt solid black;
+    text-decoration: none;
+}
+*/
+
+.btn-primary
+{
+    background: transparent none;
+    color: black;
+    font-size: 10pt;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+#btn-footer.active, #btn-footer:active
+{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1pt solid orange;
+    color: orange;
+}
+
+#btn-footer:focus
+{
+    background: none transparent;
+
+    box-shadow: none;
+    outline: none;
+
+    border-color: transparent;
+}
+
+#btn-footer.active:focus
+ {
+     color: transparent;
+     background-color: transparent;
+     outline: hidden;
+ }
+
+ #btn-footer:hover
+{
+    background: none transparent;
+   /* border-bottom: 1pt solid black;*/
+    box-shadow: none;
+   /* color: black;*/
+    border-radius: 0;
+}
+.form-inline, .form-horizontal
+ {
+     padding: 0;
+ }
+
+body > footer > section > div:nth-child(2) > form > label
+{
+    color: rgb(239,243,116);
+    padding-right: 15px;
+}
+
+body > footer > section > div:nth-child(2) > form > div > div > button.btn-info
+{
+    background-image: none;
+    background-color: rgb(239,243,116);
+    color: rgb(51, 51, 51);
+    border-color: transparent;
+}
+
+.btn-info:active:focus
+{
+    background-color: #ab4d4e ;
+    border-color: transparent;
+}
+
+#product-footer
+{
+    margin-top: 20px;
+    padding: 0;
+}
+
+#product-footer > li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+#product-footer > li > a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#product-footer > li > a
+{
+    color: rgb(239,243,116);
+}
+#product-footer > li > a:hover
+{
+    font-weight: bold;
+}
+
+.social-media
+{
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-media > span
+{
+    color: rgb(239,243,116);
+    font-weight: bold;
+}
+
+.social-media > a
+{
+    padding: 0 14px;
+    color: rgb(239,243,116);
+}
+
+.social-media > a:hover
+{
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+
+/* Products-css */
+.productsheader{
+    border-bottom: 2pt solid rgb(239,243,116);
+    width: 25%;
+    margin-left: 37%;
+}
+
+#productscontainer{
+    margin-top: 10vh;
+}
+.productspictures{
+    height: 365px;
+    width: 100%;
+}
+.andraraden{
+    margin-top: 10vh;
+}
+.panel{
+    border-style: none;
+}
+.panel-heading{
+    padding: 0;
+    background-color: white;
+    border-bottom: none;
+    border-radius: 10px;
+}
+.panel.panel-default{
+    border-radius: 7px;
+}
+.panel-title{
+    background-color: white;
+    border-radius: 6px;
+}
+.panel-footer{
+    background-color: white;
+    border-top-style: none;
+}
+#firstevent , #secondevent , #thirdevent , #fourthevent , #fifthevent , #sixthevent{
+    box-shadow: lightgrey 5px 0 5px 5px;
+}
+.btn-product{
+    border-color: #ab4d4e;
+    background-color: white;
+    color: black;
+}
+.btn-product:hover{
+    background-color: #ab4d4e;
+}
+
+
+.breadcrumb{
+    background-color: white;
+}
+
+
+strong{
+    font-size: 25px;
+}
+.tab-pane{
+    margin-top: 10vh;
+}
+.specificproductspicture{
+    height: 320px;
+    max-width: 65%;
+}
+.produktrubrik{
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+}
+.carchoose{
+    margin-top: 18vh;
+}
+.mainpage{
+    margin-bottom: 17vh;
+}
+
+.formulär{
+    margin-top: 7vh;
+}
+
+.biljetter{
+    margin-top: 0;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .navbar-brand
+    {
+        padding-top: 15px;
+        font-family: "Archivo Black", sans-serif;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: rgb(239,243,116);
+    }
+
+    .navbar-default .navbar-nav>.active>a
+    {
+        font-weight: bold;
+        border-bottom: none;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav>.active>a:hover
+    {
+        background-color: transparent;
+    }
+
+    #navbar-collapse-container > ul > li > a:focus
+    {
+        background: none transparent;
+        border-bottom: none;
+        font-weight: bold;
+    }
+
+    .nav > a:hover
+    {
+        font-weight: bold;
+        border-bottom: none;
+    }
+
+    #navbar-collapse-container > ul > li > a:hover
+    {
+        border-bottom: none ;
+        font-weight: bold;
+    }
+    .andraraden{
+        margin-top: 0;
+    }
+    .productspictures{
+        width: 100%;
+    }
+
+    #sökrutadiv input {
+        width: 100%;
+        transition: none;
+    }
+
+    #sökrutadiv input:focus {
+        width: 100%;
+    }
+
+    .jumbotron .h1
+    {
+        font-size: 20pt;
+    }
+
+    .jumbotron .lead
+    {
+        font-size: 12pt;
+    }
+
+    #btn-footer
+    {
+        margin-top: 30px;
+    }
+    .nav
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 23px;
+    }
+
+    .form-inline, .form-horizontal
+    {
+        margin-top: 23px;
+    }
+    #product-footer > li > a
+    {
+        padding: 10px;
+    }
+    .nav > .nav-link
+    {
+        padding-bottom: 20px;
+    }
+   .wrapp-h2 > h2
+    {
+
+        font-size: 4em;
+
+        line-height: 0.18em;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #btn-footer {
+        margin-top: 30px;
+    }
+
+    .nav {
+        margin-top: 30px;
+    }
+
+    .form-inline, .form-horizontal {
+        margin-top: 30px;
+    }
+
+
+}
+
